@@ -4,5 +4,5 @@
     <color name="white">#FFFFFFFF</color>
 
     <!--Cor principal do app-->
-    <color name="color_default">#9AFFB9</color>
+    <color name="color_default">#009688</color>
 </resources>
