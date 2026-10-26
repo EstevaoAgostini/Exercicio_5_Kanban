@@ -1,10 +1,13 @@
 package com.estevaoagostini.taskkanban.ui
 
 import android.os.Bundle
+import android.os.Handler
+import android.os.Looper
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.estevaoagostini.taskkanban.R
 import com.estevaoagostini.taskkanban.databinding.FragmentSplashBinding
 
@@ -23,6 +26,15 @@ class SplashFragment : Fragment() {
         return binding.root
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+
+        Handler(Looper.getMainLooper()).postDelayed({checkAuth()}, 3000)
+    }
+
+    private fun checkAuth() {
+        findNavController().navigate(R.id.action_splashFragment_to_authentication)
+    }
 
     override fun onDestroy() {
         super.onDestroy()
