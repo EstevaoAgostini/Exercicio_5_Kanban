@@ -11,4 +11,6 @@
     <string name="recuperar_conta">Recuperar Conta</string>
     <string name="enviar">Enviar</string>
     <string name="mensagem_alterar_senha">Informe seu e-mail de cadastro para receber \n um link para alteração da senhal.</string>
+    <string name="tabs">Tabs</string>
+    <string name="logout">Logout</string>
 </resources>
