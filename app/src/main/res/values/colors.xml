@@ -5,5 +5,4 @@
 
     <!--Cor principal do app-->
     <color name="color_default">#009688</color>
-    <color name="CustomTabLayout">#FF5722</color>
 </resources>
