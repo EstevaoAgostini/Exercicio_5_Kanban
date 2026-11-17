@@ -75,8 +75,6 @@
                 android:backgroundTint="@null"
                 android:background="@drawable/bg_btn" />
 
-
-
             <ProgressBar
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -87,11 +85,17 @@
                 android:visibility="invisible"
                 tools:visibility="invisible"/>
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/meu_nome"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="32dp"/>
+            
         </LinearLayout>
 
 
     </LinearLayout>
-
-
 
 </ScrollView>
